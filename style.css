@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-rh {
+    width: 1400px;
+    height: 882px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.cadastro-img{
+    width: 840px;
+    height: 760px;
+    position: absolute;
+    left: 0;
+}
+
+.content-info{
+    width: 38%;
+    height: 760px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    position: absolute;
+    right: 25px;
+    padding-right: 5px;
+
+}
+
+
+.content-info__title{
+    color: crimson;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+.content-info__text{
+    color: black;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-info__term{
+
+}
+
+.content-info__term h3{
+
+}
+
+.content-info_term p{
+
+}
+
+.content-info__alert{
+
+}
+
+.content-info__lert p{
+    
+}
+p{
+    font-family: Inter;
+    font-weight: 100;
+    font-style: italic;
+    color:blueviolet
+}
